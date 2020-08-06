@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/cyrt.css">
+        <title>Reaction Timer</title>
+    </head>
+    
+    <body id="bod">
+    <div id="overlay2"><p id="msg" style="font-size:100%;color:white;">As i have shared this test link with veryy few people, I can just assume that you are accessing this file through whatsapp. Please don't forget to mail me a review at pankajvma.dev@gmail.com :)<br><span style="float:right;">--pverma</span></p></div>
+    <div id="overlay"><div id="count-down"><span id="count-down-style">0</span></div></div>
+    <div class="container-fluid">
+            <h3 id="head">Click on the circle as quickly as you can!</h3>
+        <div class="row" id="row">
+                <div id="btn-container">
+                    <button class="btn bg-success clr" id="start">Start</button>
+                    <button class="btn bg-danger clr" id="stop">Stop</button>
+                </div>
+                <div class="bold">
+                    Time taken: <span id="time"></span><br>
+                    Average Time:<span id="avgtime"></span><br>
+                    Best Time:<span id="btime"></span><br>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="gamePanel"><div id="shape"></div></div>
+        <script src="js/cyrt.js"></script>
+    </div>    
+    </body>
+</html>

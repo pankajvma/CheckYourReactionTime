@@ -1,0 +1,92 @@
+html, body
+        {
+            font-family: sans-serif;
+            height:100%;
+        }
+           h3{
+                padding-left: 5px;
+            }
+        #shape{
+            
+            background-color: red;
+            display: none;
+            position:relative;
+        }
+        .bold
+        {
+            font-weight: bold;
+            float:left
+        }
+        #time{
+            color:green;
+        }
+        #avgtime{
+            color:blue;
+        }
+        #btime
+        {
+            color:orange;
+        }
+        #stop
+            {
+                display: none;
+            }
+            
+        .clr
+            {
+                color:white;
+                font-weight: bold;
+                transition: 0.5s;
+            }
+        .clr:hover
+            {
+                color:yellow;
+                font-size:30px;
+            }
+            #overlay
+            {
+                height:100%;
+                width:100%;
+                background-color: rgba(0,0,0,0.5);
+                position: fixed;
+                z-index: 2;
+                display: none;
+            }
+
+            /* To delete the overlay message just remove overlay2 div from the code*/
+            #overlay2
+            {
+                height:100%;
+                width:100%;
+                background-color: rgba(0,0,0,0.8);
+                position: fixed;
+                z-index: 2;
+                display: none;
+            }
+            #count-down
+            {
+                width:40px;
+                position: relative;
+                top:30%;
+                left:45%;
+            }
+            #count-down-style
+            {
+                color:white;
+                font-size:500%;
+                transition:0.5s;
+            }
+            .topPad
+            {
+                margin-top:5px;
+            }
+            #gamePanel
+            {
+               background-color: #e0faff;
+                display:none;
+            }
+            #btn-container
+            {
+                padding:10px;
+                float:left;
+            }
